@@ -1,9 +1,9 @@
 def create_an_empty_array
-  return my_arry = [];
+  return [];
 end
 
 def create_an_array
-  return second_array = [0, 1, 2];
+  return [0, 1, 2];
 end
 
 def add_element_to_end_of_array(array, element)
@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-    return array.unshift;
+    return array.unshift(element);
 end
 
 def remove_element_from_end_of_array(array)
